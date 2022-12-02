@@ -13,3 +13,22 @@ WebDriver BiDi listening on ws://127.0.0.1:50948
 1669652450482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileaAceTg/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:50948/devtools/browser/bd7383a2-bbc3-427b-a213-19c2b06fe6f8
+1669654452577	geckodriver	INFO	Listening on 127.0.0.1:51529
+1669654453097	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51530" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileLclv6H"
+1669654454701	Marionette	INFO	Marionette enabled
+2022-11-28 19:54:14.804 plugin-container[43455:6774386] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-28 19:54:14.805 plugin-container[43455:6774386] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-28 19:54:14.821 plugin-container[43455:6774386] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-28 19:54:14.821 plugin-container[43455:6774386] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-28 19:54:14.821 plugin-container[43455:6774384] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-28 19:54:14.821 plugin-container[43455:6774384] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1669654454882	Marionette	INFO	Listening on port 51538
+Read port: 51538
+WebDriver BiDi listening on ws://127.0.0.1:51530
+1669654455056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileLclv6H/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51530/devtools/browser/c7970bd2-4328-4ce9-a799-ece4b08ae3eb
+1669662867488	Marionette	INFO	Stopped listening on port 51538
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669662877217	Marionette	INFO	Stopped listening on port 50963
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
