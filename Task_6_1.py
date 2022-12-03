@@ -4,7 +4,7 @@ import time
 
 
 driver = webdriver.Chrome()
-driver.implicitly_wait(5)
+driver.implicitly_wait(3)
 
 
 driver.get('http://localhost/litecart/admin/')
