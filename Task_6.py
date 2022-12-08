@@ -23,16 +23,16 @@ menu_all = driver.find_elements(By.XPATH, '//*[@id="app-"]/a')
 i = 1
 while i<len(menu_all)+1:
     a = driver.find_element(By.XPATH, f'/html/body/div/div/div/table/tbody/tr/td[1]/div[3]/ul/li[{i}]/a')
-    text = a.get_attribute('textContent')
-    assert text != None
     a.click()
+    a1 = driver.find_element(By.TAG_NAME, 'h1').text
+    assert a1 != None
     x = len(driver.find_elements(By.CSS_SELECTOR, 'li li'))
     if x != 0:
         for m in range(x)[1:]:
             b = driver.find_element(By.XPATH, f'/html/body/div/div/div/table/tbody/tr/td[1]/div[3]/ul/li[{i}]/ul/li[{m}]/a')
-            text2 = b.get_attribute('textContent')
-            assert text2 != None
             b.click()
+            b1 = driver.find_element(By.TAG_NAME, 'h1').text
+            assert b1 != None
     i+=1             
     
 
