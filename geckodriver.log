@@ -32,3 +32,20 @@ DevTools listening on ws://127.0.0.1:51530/devtools/browser/c7970bd2-4328-4ce9-a
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1669662877217	Marionette	INFO	Stopped listening on port 50963
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670762062970	geckodriver	INFO	Listening on 127.0.0.1:58643
+1670762063466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58644" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofiletE1zNK"
+1670762064272	Marionette	INFO	Marionette enabled
+2022-12-11 15:34:24.391 plugin-container[89489:9990185] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-11 15:34:24.391 plugin-container[89489:9990185] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-11 15:34:24.423 plugin-container[89489:9990185] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-11 15:34:24.423 plugin-container[89489:9990185] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-11 15:34:24.423 plugin-container[89489:9990188] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-11 15:34:24.423 plugin-container[89489:9990188] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670762064462	Marionette	INFO	Listening on port 58673
+Read port: 58673
+WebDriver BiDi listening on ws://127.0.0.1:58644
+1670762064637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofiletE1zNK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58644/devtools/browser/d4d1e5cb-9545-4e2a-ac8b-c6a3bb5c9e9c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."

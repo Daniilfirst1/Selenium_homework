@@ -18,7 +18,7 @@ password.send_keys('admin')
 inter_button = driver.find_element(By.NAME, 'login')
 inter_button.click()
 
-
+#Part A
 rows = driver.find_elements(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
 
 
@@ -42,23 +42,34 @@ for x in zones:
     a = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
     if int(a.text) > 0:
         b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
-        c = b.find_elements(By.CSS_SELECTOR, 'a')
-        for x in c:
-            x.click()
-            sort_inside_part = driver.find_element(By.CSS_SELECTOR, 'table table#table-zones')
-            sort_inside = sort_inside_part.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
-            for x in sort_inside:
-                list_geozones.append(x.get_property('textContent'))
-                print(list_geozones)
-            driver.back()
-            time.sleep(2)
+        c = b.find_element(By.CSS_SELECTOR, 'a')
+        c.click()
+        sort_inside_part = driver.find_element(By.CSS_SELECTOR, 'table table#table-zones')
+        sort_inside = sort_inside_part.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
+        for x in sort_inside:
+            list_geozones.append(x.get_property('textContent'))
+            print(list_geozones)
+        driver.back()
+        time.sleep(2)
 
 
 
 
 
-
-  
+# for x in zones:
+#     a = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
+#     if int(a.text) > 0:
+#         b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
+#         c = b.find_elements(By.CSS_SELECTOR, 'a')
+#         for x in c:
+#             x.click()
+#             sort_inside_part = driver.find_element(By.CSS_SELECTOR, 'table table#table-zones')
+#             sort_inside = sort_inside_part.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
+#             for x in sort_inside:
+#                 list_geozones.append(x.get_property('textContent'))
+#                 print(list_geozones)
+#             driver.back()
+#             time.sleep(2)
 
 
 

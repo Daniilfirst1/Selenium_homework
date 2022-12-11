@@ -1,4 +1,3 @@
-from multiprocessing.connection import wait
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -20,22 +19,34 @@ inter_button = driver.find_element(By.NAME, 'login')
 inter_button.click()
 
 
-countries = driver.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
+x = [2, 3]
 
-link = countries.find_elements(By.CSS_SELECTOR, 'a')
+for i in x:
+    countries = driver.find_element(By.XPATH, f'/html/body/div/div/div/table/tbody/tr/td[3]/form/table/tbody/tr{i}]/td[3]')
+    link = countries.find_element(By.CSS_SELECTOR, 'a').click()
+    time.sleep(2)
+    count_zones = driver.find_elements(By.CSS_SELECTOR, 'select.select2-hidden-accessible')
+    len_zones = len(count_zones)
+    for x in range(len_zones)[2:]:
+        zones = driver.find_element(By.XPATH, f'//*[@id="table-zones"]/tbody/tr[{x}]/td[3]/select').text
 
-for x in link:
-    x.click()
-    zones = driver.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
-    for x in zones:
-        print(x.get_attribute('value'))
+
+
+
         
 
 
-time.sleep(4)
 
-#table-zones > tbody > tr:nth-child(2)
-#table-zones > tbody > tr:nth-child(2) > td:nth-child(3) > select
+
+# countries = driver.find_element(By.CSS_SELECTOR, 'form')
+
+# link = countries.find_elements(By.CSS_SELECTOR, 'a')
+
+# for x in link:
+#     x.click()
+#     zones = driver.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
+#     for x in zones:
+#         print(x.get_attribute('value'))
 
     
     
