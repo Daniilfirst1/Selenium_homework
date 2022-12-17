@@ -31,48 +31,29 @@ def get_textcontent_from_rows(list_countries):
 
 all_list = get_textcontent_from_rows(list_countries=list_countries)
 
-
 #Part B
 
-zones = driver.find_elements(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
-
+zones = driver.find_elements(By.CSS_SELECTOR, 'tr.row')
 
 list_geozones = []
 
 i = 1
 while i<len(zones)+1:
-    a = driver.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
-    b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
-    c = b.find_element(By.CSS_SELECTOR, 'a')
-    c.click()
-    x = driver.find_element(By.XPATH, f'//*[@id="table-zones"]/tbody/tr[2]/td[3]')
-    list_geozones.append(x.get_property('textContent'))
-    print(list_geozones)
-    driver.back()
-    time.sleep(2)
+    a = driver.find_element(By.CSS_SELECTOR, f'tr:nth-child({i})')
+    d = a.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
+    if int(d.text) >0:
+        b = a.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
+        c = b.find_element(By.CSS_SELECTOR, 'a')
+        c.click()
+        time.sleep(2)
+        list_geozones_names = driver.find_elements(By.CSS_SELECTOR, '#table-zones > tbody td:nth-child(3)')
+        h = 2
+        while h<len(list_geozones_names)-1:
+            q = driver.find_element(By.CSS_SELECTOR, f'#table-zones > tbody > tr:nth-child({h}) > td:nth-child(3)')
+            list_geozones.append(q.get_property('textContent'))
+            h+=1
+        assert list_geozones == sorted(list_geozones)
+        print(list_geozones)
+        list_geozones.clear()
+        driver.back()
     i+=1
-        
-
-
-
-# for x in zones:
-#     a = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
-#     if int(a.text) > 0:
-#         b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
-#         c = b.find_elements(By.CSS_SELECTOR, 'a')
-#         for x in c:
-#             x.click()
-#             sort_inside_part = driver.find_element(By.CSS_SELECTOR, 'table table#table-zones')
-#             sort_inside = sort_inside_part.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
-#             for x in sort_inside:
-#                 list_geozones.append(x.get_property('textContent'))
-#                 print(list_geozones)
-#             driver.back()
-#             time.sleep(2)
-
-
-
-
-
-
-
