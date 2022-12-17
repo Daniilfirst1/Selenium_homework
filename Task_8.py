@@ -34,25 +34,24 @@ all_list = get_textcontent_from_rows(list_countries=list_countries)
 
 #Part B
 
-zones = driver.find_elements(By.CSS_SELECTOR, 'tr.row')
+zones = driver.find_elements(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
+
 
 list_geozones = []
 
-for x in zones:
-    a = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
-    if int(a.text) > 0:
-        b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
-        c = b.find_element(By.CSS_SELECTOR, 'a')
-        c.click()
-        sort_inside_part = driver.find_element(By.CSS_SELECTOR, 'table table#table-zones')
-        sort_inside = sort_inside_part.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3)')
-        for x in sort_inside:
-            list_geozones.append(x.get_property('textContent'))
-            print(list_geozones)
-        driver.back()
-        time.sleep(2)
-
-
+i = 1
+while i<len(zones)+1:
+    a = driver.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(6)')
+    b = x.find_element(By.CSS_SELECTOR, 'tr.row td:nth-child(5)')
+    c = b.find_element(By.CSS_SELECTOR, 'a')
+    c.click()
+    x = driver.find_element(By.XPATH, f'//*[@id="table-zones"]/tbody/tr[2]/td[3]')
+    list_geozones.append(x.get_property('textContent'))
+    print(list_geozones)
+    driver.back()
+    time.sleep(2)
+    i+=1
+        
 
 
 

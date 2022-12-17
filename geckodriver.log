@@ -49,3 +49,6 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:58644/devtools/browser/d4d1e5cb-9545-4e2a-ac8b-c6a3bb5c9e9c
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1670848994165	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1670870956267	Marionette	INFO	Stopped listening on port 58673
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
