@@ -52,3 +52,122 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 1670848994165	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
 1670870956267	Marionette	INFO	Stopped listening on port 58673
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671384750857	geckodriver	INFO	Listening on 127.0.0.1:54791
+1671384751358	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54792" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileMdJOw1"
+1671384752193	Marionette	INFO	Marionette enabled
+2022-12-18 20:32:32.343 plugin-container[18389:11786199] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:32:32.344 plugin-container[18389:11786199] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:32:32.365 plugin-container[18389:11786199] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:32:32.365 plugin-container[18389:11786199] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:32:32.365 plugin-container[18389:11786229] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:32:32.365 plugin-container[18389:11786229] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671384752402	Marionette	INFO	Listening on port 54820
+Read port: 54820
+WebDriver BiDi listening on ws://127.0.0.1:54792
+1671384752588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileMdJOw1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54792/devtools/browser/d4c279d2-a8f6-4274-95d6-55ada571e627
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 391))
+1671384864992	geckodriver	INFO	Listening on 127.0.0.1:55316
+1671384865518	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55317" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileFuNUny"
+1671384866230	Marionette	INFO	Marionette enabled
+2022-12-18 20:34:26.274 plugin-container[18554:11787792] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:34:26.274 plugin-container[18554:11787792] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671384866276	Marionette	INFO	Listening on port 55328
+2022-12-18 20:34:26.280 plugin-container[18554:11787792] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:34:26.280 plugin-container[18554:11787792] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:34:26.280 plugin-container[18554:11787790] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:34:26.280 plugin-container[18554:11787790] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:55317
+Read port: 55328
+1671384866425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileFuNUny/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55317/devtools/browser/588a4000-89af-4b06-afa7-a74b24df9e96
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1671384914940	geckodriver	INFO	Listening on 127.0.0.1:55563
+1671384915458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55564" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile5Zb0IV"
+2022-12-18 20:35:15.931 plugin-container[18639:11788511] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:35:15.932 plugin-container[18639:11788511] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:35:15.934 plugin-container[18639:11788511] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:35:15.934 plugin-container[18639:11788511] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:35:15.934 plugin-container[18639:11788513] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:35:15.934 plugin-container[18639:11788513] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671384915954	Marionette	INFO	Marionette enabled
+1671384915982	Marionette	INFO	Listening on port 55575
+Read port: 55575
+WebDriver BiDi listening on ws://127.0.0.1:55564
+1671384916137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile5Zb0IV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55564/devtools/browser/0275a73a-645a-4ac8-9828-acf5aba31a0f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1671385174008	geckodriver	INFO	Listening on 127.0.0.1:56674
+1671385174531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56675" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilePL8fTy"
+2022-12-18 20:39:35.075 plugin-container[18940:11790604] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:39:35.076 plugin-container[18940:11790604] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:39:35.079 plugin-container[18940:11790604] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:39:35.079 plugin-container[18940:11790604] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:39:35.079 plugin-container[18940:11790610] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:39:35.079 plugin-container[18940:11790610] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671385175096	Marionette	INFO	Marionette enabled
+1671385175260	Marionette	INFO	Listening on port 56686
+Read port: 56686
+WebDriver BiDi listening on ws://127.0.0.1:56675
+1671385175357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilePL8fTy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56675/devtools/browser/dd6cff88-3f7e-4dba-a2e0-41928663e397
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1671385186624	Marionette	INFO	Stopped listening on port 56686
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671385189978	Marionette	INFO	Stopped listening on port 55575
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671385193752	Marionette	INFO	Stopped listening on port 55328
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671386376268	geckodriver	INFO	Listening on 127.0.0.1:61664
+1671386376786	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61665" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile35stKq"
+1671386378369	Marionette	INFO	Marionette enabled
+2022-12-18 20:59:38.484 plugin-container[20470:11801207] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:59:38.484 plugin-container[20470:11801207] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:59:38.517 plugin-container[20470:11801207] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:59:38.517 plugin-container[20470:11801207] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 20:59:38.517 plugin-container[20470:11801205] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 20:59:38.517 plugin-container[20470:11801205] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671386378561	Marionette	INFO	Listening on port 61680
+Read port: 61680
+WebDriver BiDi listening on ws://127.0.0.1:61665
+1671386378744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile35stKq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61665/devtools/browser/06b695d4-1e52-4e82-99f9-5471feb13964
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1671386381234	Marionette	INFO	Stopped listening on port 61680
+1671386533763	geckodriver	INFO	Listening on 127.0.0.1:62331
+1671386534282	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62332" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileSXu6zv"
+2022-12-18 21:02:14.727 plugin-container[20680:11802666] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 21:02:14.727 plugin-container[20680:11802666] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 21:02:14.730 plugin-container[20680:11802666] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 21:02:14.730 plugin-container[20680:11802666] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-18 21:02:14.730 plugin-container[20680:11802668] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-18 21:02:14.730 plugin-container[20680:11802668] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671386534747	Marionette	INFO	Marionette enabled
+1671386534909	Marionette	INFO	Listening on port 62343
+WebDriver BiDi listening on ws://127.0.0.1:62332
+Read port: 62343
+1671386535138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileSXu6zv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62332/devtools/browser/b180992b-80e0-41d4-9405-d108ec9d27e2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1671386537100	Marionette	INFO	Stopped listening on port 62343
+1671388058952	Marionette	INFO	Stopped listening on port 54820
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
