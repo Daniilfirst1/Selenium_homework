@@ -14,9 +14,7 @@ check_count = driver.find_element(By.CSS_SELECTOR, '#cart > a.content > span.qua
 while int(check_count) < 3:
     driver.find_element(By.CSS_SELECTOR, '#box-most-popular > div > ul > li:nth-child(1) > a.link').click()
     driver.find_element(By.CSS_SELECTOR, 'button[name=add_cart_product]').click()
-    check_count_wait = WebDriverWait(driver, timeout = 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "span[class=quantity]"))).text
-    print(check_count)
-    print(check_count_wait)
+    check_count_wait = WebDriverWait(driver, timeout = 10).until(EC.any_of(By.CSS_SELECTOR, "span[class=quantity]"))
     driver.back()
     check_count = driver.find_element(By.CSS_SELECTOR, '#cart > a.content > span.quantity').text
 
