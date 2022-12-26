@@ -27,7 +27,6 @@ x = [2, 3]
 for i in x:
     countries = driver.find_element(By.XPATH, f'//*[@id="content"]/form/table/tbody/tr[{i}]/td[3]')
     link = countries.find_element(By.CSS_SELECTOR, 'a').click()
-    time.sleep(1)
     a = driver.find_elements(By.CSS_SELECTOR, 'tr td:nth-child(3) > select option[selected]')
     for x in a:
         list_geozones.append(x.text)
