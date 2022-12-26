@@ -22,7 +22,7 @@ inter_button.click()
 
 add_new_product = driver.find_element(By.CSS_SELECTOR, 'a.button:nth-child(2)')
 add_new_product.click()
-general_name = driver.find_element(By.CSS_SELECTOR, '#tab-general > table > tbody > tr:nth-child(2) > td > span > input[type=text]')
+general_name = driver.find_element(By.CSS_SELECTOR, 'input[name="name[en]"]')
 general_name.send_keys('Product#1')
 general_code = driver.find_element(By.CSS_SELECTOR, 'input[name=code]')
 general_code.send_keys(12012)
