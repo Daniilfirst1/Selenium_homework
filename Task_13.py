@@ -1,4 +1,3 @@
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -17,7 +16,7 @@ while int(check_count) < 3:
     driver.find_element(By.CSS_SELECTOR, '#box-most-popular > div > ul > li:nth-child(1) > a.link').click()
     driver.find_element(By.CSS_SELECTOR, 'button[name=add_cart_product]').click()
     try:
-        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[name=add_cart_product][style=""')))
+        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'a[class=content][style]')))
     except Exception:
         Select(driver.find_element(By.CSS_SELECTOR, 'select[name="options[Size]"]')).select_by_value('Small')
         driver.find_element(By.CSS_SELECTOR, 'button[name=add_cart_product]').click()

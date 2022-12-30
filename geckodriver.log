@@ -171,3 +171,315 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't fin
 1671386537100	Marionette	INFO	Stopped listening on port 62343
 1671388058952	Marionette	INFO	Stopped listening on port 54820
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672253115573	geckodriver	INFO	Listening on 127.0.0.1:55274
+1672253116080	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55275" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileZKcNyk"
+1672253116923	Marionette	INFO	Marionette enabled
+2022-12-28 21:45:17.064 plugin-container[35693:14558318] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:45:17.064 plugin-container[35693:14558318] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 21:45:17.087 plugin-container[35693:14558318] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:45:17.087 plugin-container[35693:14558318] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 21:45:17.088 plugin-container[35693:14558346] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:45:17.088 plugin-container[35693:14558346] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672253117123	Marionette	INFO	Listening on port 55282
+Read port: 55282
+WebDriver BiDi listening on ws://127.0.0.1:55275
+1672253117323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileZKcNyk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55275/devtools/browser/8c43363e-b395-41c8-a54a-135362ddb6b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672253550082	geckodriver	INFO	Listening on 127.0.0.1:55608
+1672253550603	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55609" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileUVJEsV"
+1672253551463	Marionette	INFO	Marionette enabled
+2022-12-28 21:52:31.550 plugin-container[36224:14562989] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:52:31.550 plugin-container[36224:14562989] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 21:52:31.566 plugin-container[36224:14562989] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:52:31.566 plugin-container[36224:14562989] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 21:52:31.566 plugin-container[36224:14563016] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 21:52:31.566 plugin-container[36224:14563016] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672253551636	Marionette	INFO	Listening on port 55620
+Read port: 55620
+WebDriver BiDi listening on ws://127.0.0.1:55609
+1672253551797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileUVJEsV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55609/devtools/browser/8ae39a33-c613-462a-a292-4dba19a1c162
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672253571517	Marionette	INFO	Stopped listening on port 55620
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254257282	geckodriver	INFO	Listening on 127.0.0.1:58543
+1672254257802	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58544" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilePpcwcy"
+1672254259304	Marionette	INFO	Marionette enabled
+2022-12-28 22:04:19.391 plugin-container[37121:14569790] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:04:19.391 plugin-container[37121:14569790] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:04:19.415 plugin-container[37121:14569790] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:04:19.415 plugin-container[37121:14569790] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:04:19.415 plugin-container[37121:14569817] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:04:19.415 plugin-container[37121:14569817] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672254259483	Marionette	INFO	Listening on port 58559
+Read port: 58559
+WebDriver BiDi listening on ws://127.0.0.1:58544
+1672254259654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilePpcwcy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58544/devtools/browser/452fe4b7-41bb-408f-afa4-e6edf143f030
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254343607	geckodriver	INFO	Listening on 127.0.0.1:58942
+1672254344127	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58943" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilexM5Uig"
+2022-12-28 22:05:44.942 plugin-container[37267:14571289] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:05:44.945 plugin-container[37267:14571289] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:05:44.947 plugin-container[37267:14571289] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:05:44.947 plugin-container[37267:14571289] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:05:44.948 plugin-container[37267:14571313] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:05:44.948 plugin-container[37267:14571313] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672254344951	Marionette	INFO	Marionette enabled
+1672254345115	Marionette	INFO	Listening on port 58954
+WebDriver BiDi listening on ws://127.0.0.1:58943
+Read port: 58954
+1672254345231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilexM5Uig/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58943/devtools/browser/fdd8a709-7000-4aa3-870d-48fdebf448d0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254377780	Marionette	INFO	Stopped listening on port 58559
+1672254380499	Marionette	INFO	Stopped listening on port 58954
+1672254466893	geckodriver	INFO	Listening on 127.0.0.1:59485
+1672254467419	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59486" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilehhbY6e"
+1672254468191	Marionette	INFO	Marionette enabled
+2022-12-28 22:07:48.192 plugin-container[37467:14573178] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:07:48.192 plugin-container[37467:14573178] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:07:48.214 plugin-container[37467:14573178] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:07:48.214 plugin-container[37467:14573178] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:07:48.214 plugin-container[37467:14573205] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:07:48.214 plugin-container[37467:14573205] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672254468355	Marionette	INFO	Listening on port 59497
+Read port: 59497
+WebDriver BiDi listening on ws://127.0.0.1:59486
+1672254468453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilehhbY6e/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59486/devtools/browser/45867ebd-2b97-4604-b278-a5b583208433
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254494711	Marionette	INFO	Stopped listening on port 59497
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672254507545	geckodriver	INFO	Listening on 127.0.0.1:59693
+1672254508075	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59694" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilevNDiLO"
+2022-12-28 22:08:28.521 plugin-container[37550:14573921] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:08:28.521 plugin-container[37550:14573921] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:08:28.524 plugin-container[37550:14573921] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:08:28.524 plugin-container[37550:14573921] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:08:28.524 plugin-container[37550:14573923] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:08:28.524 plugin-container[37550:14573923] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672254508547	Marionette	INFO	Marionette enabled
+1672254508703	Marionette	INFO	Listening on port 59705
+Read port: 59705
+WebDriver BiDi listening on ws://127.0.0.1:59694
+1672254508798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilevNDiLO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59694/devtools/browser/19f55ea8-4501-40c1-808b-3b2f25b1e30c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254522278	Marionette	INFO	Stopped listening on port 59705
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672254734116	geckodriver	INFO	Listening on 127.0.0.1:60783
+1672254734637	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60784" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileCNuFfW"
+1672254735466	Marionette	INFO	Marionette enabled
+1672254735593	Marionette	INFO	Listening on port 60799
+Read port: 60799
+WebDriver BiDi listening on ws://127.0.0.1:60784
+2022-12-28 22:12:15.778 plugin-container[38085:14578009] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:12:15.778 plugin-container[38085:14578009] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:12:15.797 plugin-container[38085:14578009] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:12:15.797 plugin-container[38085:14578009] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:12:15.797 plugin-container[38085:14578049] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:12:15.797 plugin-container[38085:14578049] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672254735869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileCNuFfW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60784/devtools/browser/587b9601-780f-414f-a1e2-271bdd48bf72
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672254753270	Marionette	INFO	Stopped listening on port 60799
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672255315654	geckodriver	INFO	Listening on 127.0.0.1:63266
+1672255316174	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63267" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilenD0xED"
+1672255317409	Marionette	INFO	Marionette enabled
+1672255317451	Marionette	INFO	Listening on port 63286
+Read port: 63286
+WebDriver BiDi listening on ws://127.0.0.1:63267
+2022-12-28 22:21:57.637 plugin-container[38830:14583229] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:21:57.638 plugin-container[38830:14583229] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672255317649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-12-28 22:21:57.866 plugin-container[38830:14583229] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:21:57.866 plugin-container[38830:14583229] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:21:57.866 plugin-container[38830:14583252] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:21:57.866 plugin-container[38830:14583252] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofilenD0xED/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63267/devtools/browser/2cc0d564-1b77-44e4-a83e-965ff66954a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672255397304	geckodriver	INFO	Listening on 127.0.0.1:63651
+1672255397825	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63652" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile9Pvfxn"
+2022-12-28 22:23:18.639 plugin-container[38940:14584120] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:23:18.640 plugin-container[38940:14584120] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:23:18.642 plugin-container[38940:14584120] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:23:18.643 plugin-container[38940:14584120] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-28 22:23:18.643 plugin-container[38940:14584127] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-28 22:23:18.643 plugin-container[38940:14584127] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672255398667	Marionette	INFO	Marionette enabled
+1672255398827	Marionette	INFO	Listening on port 63667
+Read port: 63667
+WebDriver BiDi listening on ws://127.0.0.1:63652
+1672255398942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofile9Pvfxn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63652/devtools/browser/03afe084-cb97-4f87-9c55-5c2af5ffd390
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1672255625078	Marionette	INFO	Stopped listening on port 63667
+1672255628794	Marionette	INFO	Stopped listening on port 63286
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 391))
+1672258304698	Marionette	INFO	Stopped listening on port 55282
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672403373685	geckodriver	INFO	Listening on 127.0.0.1:61962
+1672403374182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61963" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileAQ26ta"
+1672403375056	Marionette	INFO	Marionette enabled
+2022-12-30 15:29:35.199 plugin-container[65552:14854865] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 15:29:35.199 plugin-container[65552:14854865] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 15:29:35.217 plugin-container[65552:14854865] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 15:29:35.217 plugin-container[65552:14854865] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 15:29:35.217 plugin-container[65552:14854888] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 15:29:35.217 plugin-container[65552:14854888] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672403375256	Marionette	INFO	Listening on port 61971
+Read port: 61971
+WebDriver BiDi listening on ws://127.0.0.1:61963
+1672403375462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p7/9vqbgwc10kz1j60hv_qnyrbw0000gn/T/rust_mozprofileAQ26ta/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61963/devtools/browser/4b236b9c-d97b-4241-ad0b-8fe958164c08
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
